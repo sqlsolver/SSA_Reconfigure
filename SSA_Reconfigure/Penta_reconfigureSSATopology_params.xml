@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<params>
+  <SSA Name="Penta Enterprise Search Application" Identity="e5ae742e-1665-4ce9-b8f6-d0ba217c5bce">
+    <SSI ServerName="APP1" addAdmin="y" addCrawl="n" addAnalytics="y" addContent="y" addQuery="n" addIndex="y">
+      <indexComponent Host="APP1" Type="Index" IndexPartition="0" RootDirectory="C:\SearchIndex"/>
+    </SSI>
+    <SSI ServerName="CA1" addAdmin="n" addCrawl="n" addAnalytics="n" addContent="n" addQuery="n" addIndex="n">
+    </SSI>
+    <SSI ServerName="WFE1" addAdmin="n" addCrawl="n" addAnalytics="n" addContent="n" addQuery="y" addIndex="n">
+    </SSI>
+  </SSA>
+</params>
